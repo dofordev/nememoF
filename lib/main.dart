@@ -7,12 +7,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: '내메모',
       theme: ThemeData(
 
         primarySwatch: Colors.blue,
       ),
-      home: MyHomePage(title: '내메모'),
+      home: MyHomePage(title: '내메모222'),
     );
   }
 }
@@ -22,6 +21,8 @@ class MyHomePage extends StatefulWidget {
 
 
   final String title;
+
+
 
   @override
   _MyHomePageState createState() => _MyHomePageState();
