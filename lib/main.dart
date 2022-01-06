@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
 
         primarySwatch: Colors.blue,
       ),
-      home: MyHomePage(title: '내메모3333'),
+      home: MyHomePage(title: '내메모'),
     );
   }
 }
@@ -22,8 +22,6 @@ class MyHomePage extends StatefulWidget {
 
 
   final String title;
-
-
 
   @override
   _MyHomePageState createState() => _MyHomePageState();
