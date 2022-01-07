@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
 
         primarySwatch: Colors.blue,
       ),
-      home: MyHomePage(title: '내메모merge2'),
+      home: MyHomePage(title: '내메모33332342f3432fff'),
     );
   }
 }
